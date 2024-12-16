@@ -1,0 +1,99 @@
+*{
+    padding: 0%;
+    margin: 0%,auto;
+    box-sizing: border-box;
+}
+body{
+    background-color: antiquewhite;
+    font-size: 25px;
+}
+.container{
+    width:20%;
+    height: 100vh;
+    background-color: white;
+    display: block;
+    margin-left: auto;
+    margin-right:auto;
+    border: 2px solid white;
+    border-radius: 10px;
+    color: hsl(30, 10%, 34%);
+}
+.image{
+    padding: 40px;
+}
+.image>h1{
+    color: black;
+}
+.up{
+    border-radius: 10px;
+}
+.Preparation{
+    padding: 20px;
+    margin: 40px;
+    background-color:hsl(330, 100%, 98%);
+}
+.Preparation>h2{
+    color: hsl(332, 51%, 32%);
+}
+ul{
+    padding-left: 50px;
+}
+.Preparation>ul>li::marker{
+    color:hsl(332, 51%, 32%);
+}
+.main{
+    padding: 40px;
+}
+.main>h1{
+    color: hsl(14, 45%, 36%);
+}
+.main>ul>li::marker{
+    color: hsl(14, 45%, 36%);
+}
+ol{
+    padding-left: 50px;
+}
+.main>ol>li::marker{
+    color: hsl(14, 45%, 36%);
+}
+.nutrition-container {
+    background-color: #fff;
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Nutrition Heading */
+.nutrition-header {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #4e3524;
+}
+
+/* Table Styles */
+.nutrition-table {
+    width: 100%;
+    margin-top: 10px;
+    border-collapse: collapse;
+}
+
+.nutrition-table th, 
+.nutrition-table td {
+    padding: 12px;
+    text-align: left;
+    font-size: 2rem;
+}
+
+.nutrition-table td {
+    color: hsl(14, 45%, 36%);
+    font-weight: bold;
+    text-align:center;
+}
+
+.nutrition-table tr:not(:last-child) {
+    border-bottom: 1px solid #eee;
+}
